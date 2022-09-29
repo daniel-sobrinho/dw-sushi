@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("/fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat Regular";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header img{
+    width: 100%;
+}
+
+header nav{
+    margin-top: -5px;
+    padding: 26px 0px 24px 0px;
+    background-color: #1E1E1E;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li{
+    margin: 0px 25px;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+header nav ul li a:hover{
+    color: #BA4545;
+}
+
+#inicio{
+    padding: 79px 59px 89px 152px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+#inicio #image-container{
+    width: 140;
+    height: 310px;
+    margin-right: 185px;
+}
+
+#sobre{
+    display: flex;
+    height: 425px;
+}
+
+#sobre #text{
+    padding: 67px 17px 55px 24px;
+    background-color: #D9D9D9;
+    min-width: 55%;
+}
+
+#sobre #text h2{
+    font-size: 50px;
+    margin-bottom: 38px;
+}
+
+#sobre #text p{
+    font-size: 24px;
+}
+
+#sobre #image-container{
+    min-width: 40%;
+    overflow: hidden;
+    background-image: url('../images/2-sobre.jpg');
+    background-size: cover;
+}
+
+main{
+    padding: 100px 47px 38px 47px;
+}
+
+main #apresentacao{
+    display: flex;
+}
+
+main #apresentacao #imagem{
+    min-width: 380px;
+    max-width: 380px;
+}
+
+main #apresentacao #imagem img{
+    width: 100%;
+}
+
+main #apresentacao #texto{
+    margin-left: 81px;
+}
+
+main #apresentacao #texto h2{
+    font-size: 50px;
+}
+
+main #apresentacao #texto p{
+    font-size: 24px;
+    margin-top: 38px;
+}
+
+main #produtos{
+    margin-top: 100px;
+}
+
+.card{
+    width: 290px;
+    text-align: center;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .image-container{
+    width: 100%;
+    height: fit-content;flex-grow: 1;
+}
+
+.card .image-container img{
+    width: 100%;
+}
+
+.card p{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#row-1, #row-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#reserva{
+    background-color: #D9D9D9;
+    padding: 45px;
+    text-align: center;
+}
+
+#reserva h2{
+    font-size: 50px;
+}
+
+#contato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#form div input, #form button{
+    font-size: 20px;
+    width: 230px;
+    padding: 8px 0px 8px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#vr{
+    height: 250px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.icon{
+    width: 21px;
+    height: 21px;
+    margin-right: 22px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#form div input{
+    margin-bottom: 20px;
+}
+
+#form button{
+    background-color: #BA4545;
+    border-style: none;
+}
+
+#form button:hover{
+    cursor: pointer;
+}
+
+#telefone{
+    font-size: 24px;
+    text-align: center;
+}
+
+#telefone p:last-child{
+    font-size: 50px;
+}
+
+footer{
+    background-image: url('../images/9-contato.jpeg');
+    background-size: cover;
+    padding-top: 67px;
+    padding-bottom: 94px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    background-color: #FFFFFF;
+    width: fit-content;
+    padding: 20px 24px 28px 24px;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer div img{
+    width: 65px;
+}
+
+#endereco, #fone, #funcionamento, #redes-sociais{
+    margin-top: 64px;
+}
+
+#endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redes-sociais img{
+    width: 32px;
+    height: 32px;
+}
+
+#redes-sociais img:hover, .card{
+    cursor: pointer;
+}
